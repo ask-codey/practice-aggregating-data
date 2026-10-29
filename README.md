@@ -28,3 +28,7 @@ At first every test fails: that is expected. Each question you answer turns its 
 - One row for the whole table? An aggregate on its own. One row per something? `GROUP BY` that something.
 - Filtering rows before counting is `WHERE`; filtering the groups by their counts or totals is `HAVING`.
 - Some tools, such as sqlcmd, show money values with four decimal places: 17250.0000 is the same answer as the 17250.00 in an **Expect** line.
+
+## Hand it in
+
+When it works, push your solution to a public repo of your own on GitHub, then paste that repo's address into **Submit your exercise** on the lesson page at [ask-codey.com](https://www.ask-codey.com). That's what completes the lesson. The lesson page shows the Git commands, step by step.
