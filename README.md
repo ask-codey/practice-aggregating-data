@@ -1,6 +1,6 @@
-# Practice: Aggregating Data
+# Exercise: Aggregating Data
 
-Practice SQL for the lesson **Practice: Aggregating Data** in the C# Full-Stack Bootcamp on [ask-codey.com](https://www.ask-codey.com).
+Exercise SQL for the lesson **Exercise: Aggregating Data** in the C# Full-Stack Bootcamp on [ask-codey.com](https://www.ask-codey.com).
 
 Twelve questions about the **Northwind** database, answered with aggregate functions, `GROUP BY` and `HAVING`. Each file holds one question as a comment, and what the right answer looks like: write your query under it. Nothing here changes any data.
 
@@ -15,10 +15,10 @@ Compare your result with the file's **Expect** line: the number of rows, and the
 
 ## Check your answers
 
-`AggregatingPractice.Tests` runs each of your files against your Northwind database and compares what it returns with the file's **Expect** line. Nothing is changed: every file runs inside a transaction that is rolled back. It needs the .NET SDK, which you installed in the first week. Open a terminal in this folder and run:
+`AggregatingExercise.Tests` runs each of your files against your Northwind database and compares what it returns with the file's **Expect** line. Nothing is changed: every file runs inside a transaction that is rolled back. It needs the .NET SDK, which you installed in the first week. Open a terminal in this folder and run:
 
 ```bash
-dotnet test AggregatingPractice.Tests
+dotnet test AggregatingExercise.Tests
 ```
 
 At first every test fails: that is expected. Each question you answer turns its test green, and a failing test's message says what the right answer looks like. Your column names and their order don't matter. The tests use the Northwind database on `localhost`; to use another one, set the `NORTHWIND_CONNECTION` environment variable to its connection string.
